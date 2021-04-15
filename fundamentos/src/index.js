@@ -1,5 +1,10 @@
 import ReactDOM from 'react-dom'
+import React from 'react'
 
 
-
-ReactDOM.render('Ola React!!!', document.getElementById('root'))
+let tag = <strong>Ola, React!</strong>
+ReactDOM.render(
+<div>
+    {tag}
+</div>, 
+document.getElementById('root'))

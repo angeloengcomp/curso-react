@@ -1,1 +1,1 @@
-teste
+teste feito no git bash para push automatizado.

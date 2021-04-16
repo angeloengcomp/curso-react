@@ -1,0 +1,22 @@
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid Black;
+    margin: 5px;
+    max-width: 600px;
+
+}
+.titulo{
+    background: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.conteudo{
+    background: #ccc;
+    padding: 5px;
+        
+}

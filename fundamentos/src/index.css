@@ -1,13 +1,11 @@
+*{
+    text-align: center;
+}
 body{
+    
     background: #222;
-    color:#fff;
+
 }
 h1{
-    color:aqua;
-    font-family: 'Times New Roman', Times, serif;
-    
-}
-
-h2{
-    color: red;
+    color: aqua;    
 }

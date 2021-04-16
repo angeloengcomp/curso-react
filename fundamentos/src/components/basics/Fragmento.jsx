@@ -11,7 +11,7 @@ export default function Fragmento (props){
         // </React.Fragment>
         
         <>
-        <h1>Fragment</h1>
+        <h2>Fragment</h2>
         <p>Forms to use Fragments. Plis, inspect the element
         </p>
         </>

@@ -4,7 +4,7 @@ export default function ComParam(props) {
     let status = props.nota >= 7 ? 'Aprovado' : 'Reprovado'
     return (
         <div>
-            <h2>{props.titulo}</h2>
+            <h3>{props.titulo}</h3>
             <p>
                 <strong>{props.aluno} </strong>
 

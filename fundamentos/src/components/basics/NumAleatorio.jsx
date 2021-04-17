@@ -15,7 +15,7 @@ export default props => {
     return (
 
         <div>    
-            <h2>Número Aleatório entre {min} e {max}: {valor}</h2>
+            <h3>Número Aleatório entre {min} e {max}: {valor}</h3>
         </div>   
 
     )

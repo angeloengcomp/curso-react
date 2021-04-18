@@ -5,12 +5,16 @@ import ComParametro from './components/basics/ComParametros'
 import Fragment from './components/basics/Fragmento'
 import NumAleatorio from './components/basics/NumAleatorio'
 import Cards from './components/layout/Cards'
+import Familia from './components/basics/Familia'
 
 export default _ =>
 
     <div className="app">
         <h1>Fundamentos React</h1>
         <div className="cards">
+        <Cards tittle="#5 - Componente com filhos" color="#630CBF">
+            <Familia nome = 'André' sobrenome='Anjos'></Familia>
+        </Cards>
         <Cards tittle="Número Aleatório" color="#658CBF">
         <NumAleatorio min={1} max={99}/> 
         </Cards>

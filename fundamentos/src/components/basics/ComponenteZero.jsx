@@ -5,7 +5,7 @@ export default function ComponenteZero(){
         <>
         <div>
             <h2>
-                Testando Componente Zero !!!
+                Test Component Zero !!!
             </h2>
             <p>Testes no Git Push</p>
         </div>

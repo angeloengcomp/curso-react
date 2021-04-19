@@ -8,8 +8,8 @@ export default props => {
     let min = props.min
     let max = props.max
 
-    //logica para gerar numero aleatorio entre 0,1 >> Math.random
-    //Logica para gerar numero aleatorio entre dois valores >> Math.random()*(props.max-props.min)+props.min
+    //lógica para gerar numero aleatório entre 0,1 >> Math.random
+    //lógica para gerar numero aleatório entre dois valores >> Math.random()*(props.max-props.min)+props.min
     let valor = parseInt(Math.random()*(max-min)+min)
 
     return (

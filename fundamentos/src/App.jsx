@@ -7,12 +7,19 @@ import NumAleatorio from './components/basics/NumAleatorio'
 import Cards from './components/layout/Cards'
 import Familia from './components/basics/Familia'
 import FamiliaMembro from './components/basics/FamiliaMembro'
+import ListaAlunos from './components/repeticao/ListaAlunos'
 
 export default _ =>
 
     <div className="app">
         <h1>Fundamentos React</h1>
+        
+        
         <div className="cards">
+            <Cards tittle="#6 - Lista de Alunos" color='#3da4ab '>teste
+                <ListaAlunos></ListaAlunos>
+                <NumAleatorio min={1} max={99} />
+            </Cards>
             <Cards tittle="#5 - Componente com filhos" color="#630CBF">
                 <Familia sobrenome='Anjos'>
                     <FamiliaMembro nome='Angelo'></FamiliaMembro>

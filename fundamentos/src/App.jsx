@@ -1,14 +1,14 @@
-import React from 'react'
-import './App.css'
-import Primeiro from './components/basics/primeiro'
-import ComParametro from './components/basics/ComParametros'
-import Fragment from './components/basics/Fragmento'
-import NumAleatorio from './components/basics/NumAleatorio'
-import Cards from './components/layout/Cards'
-import Familia from './components/basics/Familia'
-import FamiliaMembro from './components/basics/FamiliaMembro'
-import ListaAlunos from './components/repeticao/ListaAlunos'
-
+import React from           'react'
+import                      './App.css'
+import Primeiro from        './components/basics/primeiro'
+import ComParametro from    './components/basics/ComParametros'
+import Fragment from        './components/basics/Fragmento'
+import NumAleatorio from    './components/basics/NumAleatorio'
+import Cards from           './components/layout/Cards'
+import Familia from         './components/basics/Familia'
+import FamiliaMembro from   './components/basics/FamiliaMembro'
+import ListaAlunos from     './components/repeticao/ListaAlunos'
+import TabelaProdutos from  './components/repeticao/TabelaProdutos'
 export default _ =>
 
     <div className="app">
@@ -16,9 +16,12 @@ export default _ =>
         
         
         <div className="cards">
-            <Cards tittle="#6 - Lista de Alunos" color='#3da4ab '>teste
+            <Cards tittle="#7 - Tabela de Produtos" color='#fe9c8f'>
+                <TabelaProdutos></TabelaProdutos>
+            </Cards>
+            <Cards tittle="#6 - Lista de Alunos" color='#3da4ab '>
                 <ListaAlunos></ListaAlunos>
-                <NumAleatorio min={1} max={99} />
+               
             </Cards>
             <Cards tittle="#5 - Componente com filhos" color="#630CBF">
                 <Familia sobrenome='Anjos'>

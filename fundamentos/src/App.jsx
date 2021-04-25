@@ -1,27 +1,34 @@
-import React from           'react'
-import                      './App.css'
-import Primeiro from        './components/basics/primeiro'
-import ComParametro from    './components/basics/ComParametros'
-import Fragment from        './components/basics/Fragmento'
-import NumAleatorio from    './components/basics/NumAleatorio'
-import Cards from           './components/layout/Cards'
-import Familia from         './components/basics/Familia'
-import FamiliaMembro from   './components/basics/FamiliaMembro'
-import ListaAlunos from     './components/repeticao/ListaAlunos'
-import TabelaProdutos from  './components/repeticao/TabelaProdutos'
+import React from 'react'
+import './App.css'
+import Primeiro from './components/basics/primeiro'
+import ComParametro from './components/basics/ComParametros'
+import Fragment from './components/basics/Fragmento'
+import NumAleatorio from './components/basics/NumAleatorio'
+import Cards from './components/layout/Cards'
+import Familia from './components/basics/Familia'
+import FamiliaMembro from './components/basics/FamiliaMembro'
+import ListaAlunos from './components/repeticao/ListaAlunos'
+import TabelaProdutos from './components/repeticao/TabelaProdutos'
+import ParOuImpar from './components/condicional/ParOuImpar'
+import UsuarioInfo from './components/condicional/UsuarioInfo'
 export default _ =>
 
     <div className="app">
         <h1>Fundamentos React</h1>
-        
-        
+
+
         <div className="cards">
+            <Cards tittle="#8 - Condicional" color='#f6abb6'>
+                <ParOuImpar numero='21'></ParOuImpar>
+                <UsuarioInfo usuario={{nome:'Jose'}}></UsuarioInfo>
+
+            </Cards>
             <Cards tittle="#7 - Tabela de Produtos" color='#fe9c8f'>
                 <TabelaProdutos></TabelaProdutos>
             </Cards>
             <Cards tittle="#6 - Lista de Alunos" color='#3da4ab '>
                 <ListaAlunos></ListaAlunos>
-               
+
             </Cards>
             <Cards tittle="#5 - Componente com filhos" color="#630CBF">
                 <Familia sobrenome='Anjos'>

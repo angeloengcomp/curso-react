@@ -12,6 +12,7 @@ import TabelaProdutos from './components/repeticao/TabelaProdutos'
 import ParOuImpar from './components/condicional/ParOuImpar'
 import UsuarioInfo from './components/condicional/UsuarioInfo'
 import DiretaPai from './components/comunicacao/DiretaPai'
+import IndiretaPai from './components/comunicacao/IndiretaPai'
 export default _ =>
 
     <div className="app">
@@ -19,6 +20,10 @@ export default _ =>
 
 
         <div className="cards">
+            <Cards tittle="#9 - Comunicação Indireta" color='#fe8a71 '>
+                <IndiretaPai></IndiretaPai>
+
+            </Cards>
             <Cards tittle="#9 - Comunicação Direta" color='#adcbe3 '>
                 <DiretaPai></DiretaPai>
 

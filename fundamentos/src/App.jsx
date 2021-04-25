@@ -11,6 +11,7 @@ import ListaAlunos from './components/repeticao/ListaAlunos'
 import TabelaProdutos from './components/repeticao/TabelaProdutos'
 import ParOuImpar from './components/condicional/ParOuImpar'
 import UsuarioInfo from './components/condicional/UsuarioInfo'
+import DiretaPai from './components/comunicacao/DiretaPai'
 export default _ =>
 
     <div className="app">
@@ -18,18 +19,26 @@ export default _ =>
 
 
         <div className="cards">
+            <Cards tittle="#9 - Comunicação Direta" color='#adcbe3 '>
+                <DiretaPai></DiretaPai>
+
+            </Cards>
+
             <Cards tittle="#8 - Condicional" color='#f6abb6'>
                 <ParOuImpar numero='21'></ParOuImpar>
                 <UsuarioInfo usuario={{nome:'Jose'}}></UsuarioInfo>
 
             </Cards>
+
             <Cards tittle="#7 - Tabela de Produtos" color='#fe9c8f'>
                 <TabelaProdutos></TabelaProdutos>
             </Cards>
+
             <Cards tittle="#6 - Lista de Alunos" color='#3da4ab '>
                 <ListaAlunos></ListaAlunos>
 
             </Cards>
+
             <Cards tittle="#5 - Componente com filhos" color="#630CBF">
                 <Familia sobrenome='Anjos'>
                     <FamiliaMembro nome='Angelo'></FamiliaMembro>
@@ -37,6 +46,7 @@ export default _ =>
                     <FamiliaMembro nome='Danilo'></FamiliaMembro>
                 </Familia>
             </Cards>
+
             <Cards tittle="Número Aleatório" color="#658CBF">
                 <NumAleatorio min={1} max={99} />
             </Cards>

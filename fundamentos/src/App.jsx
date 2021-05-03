@@ -14,6 +14,7 @@ import UsuarioInfo from './components/condicional/UsuarioInfo'
 import DiretaPai from './components/comunicacao/DiretaPai'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
 import Input from './components/formulario/Input'
+import Contador from './components/contador/Contador'
 export default _ =>
 
     <div className="app">
@@ -21,14 +22,19 @@ export default _ =>
 
 
         <div className="cards">
+
+            <Cards tittle='#12 - Contador' color='#f3f169'>
+                <Contador></Contador>
+            </Cards>
+
             <Cards tittle='#11 - Componente Controlado' color='#3d5af1'>
                 <Input></Input>
-
-
             </Cards>
-            <Cards tittle="#9 - Comunicação Indireta" color='#fe8a71 '>
+
+            <Cards tittle="#10 - Comunicação Indireta" color='#fe8a71 '>
                 <IndiretaPai></IndiretaPai>
             </Cards>
+
             <Cards tittle="#9 - Comunicação Direta" color='#adcbe3 '>
                 <DiretaPai></DiretaPai>
 
@@ -36,7 +42,7 @@ export default _ =>
 
             <Cards tittle="#8 - Condicional" color='#f6abb6'>
                 <ParOuImpar numero='21'></ParOuImpar>
-                <UsuarioInfo usuario={{nome:'Jose'}}></UsuarioInfo>
+                <UsuarioInfo usuario={{ nome: 'Jose' }}></UsuarioInfo>
 
             </Cards>
 
